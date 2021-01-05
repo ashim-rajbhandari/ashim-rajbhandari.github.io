@@ -1,8 +1,8 @@
 .wrapper{
     
     background : red;
-    padding-top: 10px;
-    padding-bottom : 10px;
+    /* padding-top: 10px;
+    padding-bottom : 10px; */
     
 }
 
@@ -10,8 +10,8 @@
     background : green;
     /* width: 1002px;
     margin: 0 auto; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
 .header-fullength{
     background: skyblue;
@@ -19,9 +19,10 @@
 }
 
 .navbar{
-    width: 1002px;
+    width: 982px;
     margin: 0 auto;
-    background : blue;
+    /* background : blue; */
+    background : skyblue;
     overflow: hidden;
     padding: 10px; 
      
@@ -30,25 +31,29 @@
     background-color:gray;
 }
 .nav{
-    background : yellow;
-    width: 1002px;
+    /* background : yellow; */
+    background : grey;
+    width: 982px;
     margin: 0 auto;
     overflow: hidden;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     padding: 10px;
 }
 
 .img{
     background : blueviolet;
     float:left;
-    width:180px; 
+    width:180px;
+    padding:20px 0; 
 }
 
 .form{
     background :brown;
     float: left;
     margin-left:20px;
+    margin-top:20px;
     width:280px; 
+    padding:10px 0;
 }
 
 .profile{
@@ -78,23 +83,24 @@
 /* end of header */
 
 .body-wrapper{
-    background: deeppink;
-    width: 1002px;
+    /* background: deeppink; */
+    background: white;
+    width: 982px;
     margin: 0 auto;
     padding: 10px;
-
+    
     overflow: hidden;
 }
 .body-fullength{
     background: white;
     
-    margin-top:5px;
+    /* margin-top:5px; */
 }
 .search-wrapper{
     background: dimgrey;
     float: left;
     padding: 10px;
-    width:160px;
+    width:175px;
 }
 .search{
     background: tomato;
@@ -114,7 +120,7 @@
     float: right;
     overflow: hidden;
     padding:10px;
-    width: 590px;
+    width: 698px;
     
 
 }
@@ -167,7 +173,7 @@
 .tutorial-wrapper{
     background: greenyellow;
     float:right;
-    width: 145px;
+    width: 158px;
     padding:10px;
 }
 .tutorial-content{
@@ -184,13 +190,13 @@
 
 /* footer css */
 .footer-fullength{
-    background: black;
-    margin-top:5px;
+    background:lawngreen;
+    /* margin-top:5px; */
 }
 .footer-wrapper{
     background: lawngreen;
     padding:10px;
-    width:1002px;
+    width:982px;
     margin: 0 auto;
     
     overflow: hidden;
