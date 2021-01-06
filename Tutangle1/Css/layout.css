@@ -1,0 +1,437 @@
+.wrapper{
+    
+    background : white;
+    
+}
+
+.header-wrapper{
+    background : green;
+    /* width: 1002px;
+    margin: 0 auto; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+.header-fullength{
+    background: skyblue;
+
+}
+
+.navbar{
+    width: 982px;
+    margin: 0 auto;
+    /* background : blue; */
+    background : skyblue;
+    overflow: hidden;
+    padding: 10px; 
+     
+}
+.navbar-fullength{
+    background-color:gray;
+}
+.nav{
+    /* background : yellow; */
+    background : grey;
+    width: 982px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* margin-top: 5px; */
+    padding: 10px;
+}
+
+.img{
+    background : url("../logo/tutangle.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background-attachment: fixed; */
+    background-position: left;
+    /* background: black; */
+    float:left;
+    width:240px;
+    padding: 30px 0;
+}
+
+.form{
+    /* background :brown; */
+    background :skyblue;
+    float: left;
+    margin-left:20px;
+    margin-top:20px;
+    width:361px; 
+    padding:10px 0;
+}
+.input-div{
+    background :white;
+    float: left;
+    width: 250px;
+}
+.input-left{
+    display: block;
+    background: url("../logo/btn-left.jpg") no-repeat top left;
+    padding-left:5px;
+}
+.search-icon{
+    /* background :green; */
+    background:skyblue;
+    float: left;
+    margin-left:2px;
+    
+
+}
+/* .s-icon{
+    display: block;
+    background: url("../logo/search-icon.png") no-repeat top left;
+    
+     padding-left:4px ;
+} */
+/* .search-icon-right{
+    display: block;
+    background: url("../logo/btn-right.jpg") no-repeat top right;
+} */
+.search-button{
+    background: black; 
+    float: left;
+    margin-left: 5px;
+    width: 57px;
+}
+a{
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+a:link {
+    text-decoration: none;
+  }
+.button-left{
+    display: block;
+    background: url("../logo/search-btn-left.jpg") no-repeat top left;
+}
+.button-right{
+    display: block;
+    background: url("../logo/search-btn-right.jpg") no-repeat top right;
+}
+
+.profile{
+    background : skyblue;
+    float: right;
+     padding:10px 0; 
+    width: 150px; 
+}
+.name{
+    /* background: crimson; */
+    text-align: right;
+    font-weight: bold;
+}
+.name1{
+    background: skyblue;
+    margin-top:5px;
+    text-align: right;
+}
+.name1 li{
+    display: inline-block;
+    font-size: 14px;   
+}
+.content{
+    background:grey;
+    float: left;
+    width:514px;
+}
+.content li{
+    display: inline-block;
+    font-size: 14px; 
+    padding-right: 30px;   
+}
+.content a{
+    display: block;
+}
+.friend{
+    float:right;
+    /* background: darkred;  */
+    width: 322px;
+    overflow: hidden;
+}
+.topic{
+    /* background: pink; */
+    float: left;
+}
+.topic .icon{
+    background: url("../logo/topic-icon.png") no-repeat;
+    float: left;
+    padding:10px 11px 10px 0 ;
+    width:10px;
+}
+.topic .text{
+    float: left;
+    font-size: 14px;
+    
+}
+.request{
+    /* background: blue; */
+    float: right;
+}
+.request .icon{
+    background: url("../logo/friend-icon.png") no-repeat;
+    float: left;
+    padding:10px 11px 10px 0 ;
+    width:17px;
+}
+.request .text{
+    float: left;
+    font-size: 14px;
+    /* color: slategrey; */
+}
+
+/* end of header */
+
+.body-wrapper{
+    /* background: deeppink; */
+    background: white;
+    width: 982px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    overflow: hidden;
+}
+.body-fullength{
+    background: white;
+    
+    margin-top:5px;
+}
+.search-wrapper{
+    background: dimgrey;
+    float: left;
+    /* padding: 10px; */
+    width:208px;
+}
+.search{
+     background: skyblue; 
+    /* padding:10px; */
+}
+.recent-search{
+    /* background: turquoise; */
+    padding:5px 55px 5px 15px;
+    color: white;
+}
+.list{
+     /* background: violet; */
+     background:gray;
+     overflow: hidden;
+
+}
+.list .list-text{
+     float:left;
+     /* background-color: red; */
+     background-color:gray;
+     width:146px;
+     padding:10px 0px 10px 15px;
+     font-size: 13px;
+}
+.list .list-icon{
+    background: url("../logo/download-icon.png") no-repeat; 
+    float:right;
+    width: 5px;
+    padding: 28px 17px 9px 17px;
+    background-position: center; 
+}
+.list .list-icon1{
+    background: url("../logo/arrow.png") no-repeat; 
+    
+    float:right;
+    width: 5px;
+    padding: 28px 17px 9px 17px;
+    background-position: center; 
+}
+
+.section-wrapper{
+    background: white;
+    float: right;
+    overflow: hidden;
+    /* padding:10px; */
+    width: 750px;
+    
+
+}
+.entries-wrapper{
+    /* background: gold; */
+    background: white;
+    float:left;
+    width:530px; 
+    /* padding:10px; */
+}
+.entry-text{
+    background: white; 
+    font-size: 20px;
+}
+.entry-content{
+    background: brown;
+    margin-top:5px;
+    /* padding:10px; */
+}
+.entry1{
+      background:gray;
+      padding:10px;
+      overflow:hidden;
+}
+.allentry{
+    background: rebeccapurple;
+    float:left;
+}
+.allentry-text{
+    background: red; 
+    float: left;
+    margin-left: 5px;
+    width: 57px;
+}
+.allentry-text-icon{
+    display: block;
+    /* background: url('/logo/entry-left.jpg') no-repeat top left; */
+    background: black;
+    padding: 20x;
+}
+.allentry-btn{
+    float: left;
+    background: green;
+}
+.subscribed{
+    background: rosybrown;
+    float:right;
+}
+.entry-list{
+    background:brown;
+
+    /* padding:10px;
+    margin-top:5px; */
+}
+.img-des{
+     background-color: white; 
+    padding:10px 0; 
+    overflow: hidden;
+
+}
+.image1{
+    background:green;
+    background: url("../logo/photo1.jpg") no-repeat;
+    background-size: auto;
+    float: left;
+    padding:35px 0;
+    width:77px;
+}
+.image2{
+    background:green;
+    background: url("../logo/photo2.jpg") no-repeat;
+    background-size: auto;
+    float: left;
+    padding:35px 0;
+    width:77px;
+}
+.image3{
+    background:green;
+    background: url("../logo/photo3.jpg") no-repeat;
+    background-size: auto;
+    float: left;
+    padding:35px 0;
+    width:77px;
+}
+.image4{
+    background:green;
+    background: url("../logo/photo4.jpg") no-repeat;
+    background-size: auto;
+    float: left;
+    padding:35px 0;
+    width:77px;
+}
+.image5{
+    background:green;
+    background: url("../logo/photo5.jpg") no-repeat;
+    background-size: auto;
+    float: left;
+    padding:35px 0;
+    width:77px;
+}
+.description{
+    /* background:red; */
+    float: left;
+     padding-left: 10px;
+}
+.size{
+    font-size: 13px;
+}
+.bold{
+    font-weight: bolder;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.tutorial-wrapper{
+    background: greenyellow;
+    float:right;
+    width: 190px;
+    
+}
+.tutorial-content{
+    background: skyblue;
+    
+}
+.tutorial-text{
+    /* background: hotpink; */
+    padding:5px 55px 5px 15px;
+    color: white;
+}
+.tutorial-list{
+     background-color:gray;
+     padding:10px 0px 10px 15px;
+     font-size: 13px;
+    
+}
+
+/* footer css */
+.footer-fullength{
+    background: darkgray; 
+    margin-top:5px;
+}
+.footer-wrapper{
+    /* background: lawngreen; */
+    padding:10px;
+    width:982px;
+    margin: 0 auto;
+    
+    overflow: hidden;
+}
+.footer-list{
+    background:darkgrey;
+    float: left;
+    width: 350px;
+}
+.footer-list li{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    padding-right: 3px;
+}
+.copyright{
+    /* background-color: plum; */
+    float: right;
+    width:100px;
+    overflow: hidden;
+}
+.copyright .icon{
+    background: url("../logo/copyright-icon.jpg") no-repeat; 
+    /* background-color: green; */
+    float: left;
+    padding:10px 3px 0 10px; 
+    width:20px;
+    
+}
+.copyright .text{
+    /* background-color: red; */
+    float: right;
+    font-size:10px;
+    color: white;
+    text-align: left;
+    
+}
