@@ -35,7 +35,7 @@
     margin: 0 auto;
     overflow: hidden;
     /* margin-top: 5px; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .img{
@@ -75,25 +75,25 @@
     float: left;
     margin-left:2px;
     
-
 }
-/* .s-icon{
+.search-right{
+    display: block;
+    background: url("../logo/btn-right.jpg") no-repeat top right;
+} 
+.s-icon{
     display: block;
     background: url("../logo/search-icon.png") no-repeat top left;
     
      padding-left:4px ;
-} */
-/* .search-icon-right{
-    display: block;
-    background: url("../logo/btn-right.jpg") no-repeat top right;
-} */
+} 
+
 .search-button{
     background: black; 
     float: left;
     margin-left: 5px;
     width: 57px;
 }
-a{
+.search-button a{
     color: white;
     padding-left: 8px;
     padding-right: 8px;
@@ -138,16 +138,21 @@ a:link {
 .content li{
     display: inline-block;
     font-size: 14px; 
-    padding-right: 30px;   
+    padding:3px 10px 3px 0; 
+    
 }
-.content a{
-    display: block;
-}
+
+.content li a{
+    color: black;
+    display: inline-block;
+    padding: 2px;
+} 
 .friend{
     float:right;
     /* background: darkred;  */
     width: 322px;
     overflow: hidden;
+    padding-top:5px;
 }
 .topic{
     /* background: pink; */
@@ -262,39 +267,134 @@ a:link {
     font-size: 20px;
 }
 .entry-content{
-    background: brown;
+    background: gray;
     margin-top:5px;
     /* padding:10px; */
 }
 .entry1{
-      background:gray;
-      padding:10px;
+      /* background:gray;
+      padding:10px; */
       overflow:hidden;
 }
 .allentry{
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
+    background: white;
     float:left;
+    width:270px;
 }
 .allentry-text{
-    background: red; 
-    float: left;
-    margin-left: 5px;
-    width: 57px;
+    background:whitesmoke; 
+    
+    /* margin-left: 5px; */
+    
 }
 .allentry-text-icon{
+    background: url("../logo/entry-left.jpg") no-repeat top left;
+    background-position: auto;
     display: block;
-    /* background: url('/logo/entry-left.jpg') no-repeat top left; */
-    background: black;
-    padding: 20x;
+}
+.a-text{
+    padding-left:80px;
 }
 .allentry-btn{
-    float: left;
+
     background: green;
 }
-.subscribed{
-    background: rosybrown;
-    float:right;
+.allentry-btn1{
+    float: left;
+    /* background: red; */
+    background: skyblue;;
+    margin-left: 10px;
+    width:100px;
 }
+.allentry-btn1-left{
+    display: block;
+    background: url("../logo/active-left.jpg") no-repeat top left;
+}
+.allentry-btn1-right{
+    display: block;
+    background: url("../logo/active-right.jpg") no-repeat top right;
+    padding-left:15px;
+}
+.allentry-btn2-left{
+    display: block;
+    background: url("../logo/inactive-left.jpg") no-repeat top left;
+}
+.allentry-btn2-right{
+    display: block;
+    background: url("../logo/inactive-right.jpg") no-repeat top right;
+    padding-left: 30px;
+}
+.allentry-btn2{
+    float: left;
+    background: whitesmoke;
+    margin-left:15px;
+    width:100px;
+}
+
+.subscribed{
+    /* background: rosybrown; */
+    background: white;
+    float:right;
+    width: 250px;
+}
+
+.subscribed-text{
+    background:whitesmoke; 
+    
+    /* margin-left: 5px; */
+    
+}
+.subscribed-text-icon{
+    background: url("../logo/subscribed-right.jpg") no-repeat top right;
+    background-position: auto;
+    display: block;
+}
+.a-text{
+    padding-left:80px;
+}
+.subscribed-btn{
+
+    background: green;
+}
+.subscribed-btn1{
+    float: left;
+    /* background: red; */
+    background: white;;
+    margin-left: 10px;
+    width:100px;
+}
+.subscribed-btn1-left{
+    display: block;
+    background: url("../logo/inactive-left.jpg") no-repeat top left;
+}
+.subscribed-btn1-right{
+    display: block;
+    background: url("../logo/inactive-right.jpg") no-repeat top right;
+    padding-left:15px;
+}
+.subscribed-btn2-left{
+    display: block;
+    background: url("../logo/inactive-left.jpg") no-repeat top left;
+}
+.subscribed-btn2-right{
+    display: block;
+    background: url("../logo/inactive-right.jpg") no-repeat top right;
+    padding-left: 10px;
+}
+.subscribed-btn2{
+    float: left;
+    background: whitesmoke;
+    margin-left:15px;
+    width:100px;
+}
+
+
+
+
+
+
+
 .entry-list{
     background:brown;
 
