@@ -130,6 +130,13 @@ a:link {
     display: inline-block;
     font-size: 14px;   
 }
+.name1 li a{
+    text-decoration: none;
+    color: black;
+}
+.name1 li a:hover{
+    background-color: white;
+}
 .content{
     background:grey;
     float: left;
@@ -141,12 +148,14 @@ a:link {
     padding:3px 10px 3px 0; 
     
 }
-
 .content li a{
     color: black;
     display: inline-block;
     padding: 2px;
 } 
+.content li a:hover{
+    background-color: white;
+}
 .friend{
     float:right;
     /* background: darkred;  */
@@ -222,6 +231,7 @@ a:link {
      overflow: hidden;
 
 }
+
 .list .list-text{
      float:left;
      /* background-color: red; */
@@ -229,6 +239,17 @@ a:link {
      width:146px;
      padding:10px 0px 10px 15px;
      font-size: 13px;
+}
+.list-text li{
+    list-style-type: none;
+    display: block;
+}
+.list-text li a{
+    display: block;
+    color: black;
+}
+.list-text li a:hover{
+    background-color: white;
 }
 .list .list-icon{
     background: url("../logo/download-icon.png") no-repeat; 
@@ -316,6 +337,16 @@ a:link {
     background: url("../logo/active-right.jpg") no-repeat top right;
     padding-left:15px;
 }
+.allentry-btn1-right a{
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+.allentry-btn1-right a:hover{
+    background-color: white;
+}
+
+
 .allentry-btn2-left{
     display: block;
     background: url("../logo/inactive-left.jpg") no-repeat top left;
@@ -323,8 +354,17 @@ a:link {
 .allentry-btn2-right{
     display: block;
     background: url("../logo/inactive-right.jpg") no-repeat top right;
-    padding-left: 30px;
+    padding-left: 15px;
 }
+.allentry-btn2-right a{
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+.allentry-btn2-right a:hover{
+    background-color: skyblue;
+}
+
 .allentry-btn2{
     float: left;
     background: whitesmoke;
