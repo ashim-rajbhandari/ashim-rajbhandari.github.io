@@ -17,6 +17,7 @@ table {
 	display: inline-block;
 	text-align: left;
 	border: 2px solid green;
+        margin-left: 320px;
 }
 table thead {
 	background: #bbb;
