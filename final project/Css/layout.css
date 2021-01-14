@@ -12,7 +12,9 @@
             font-size: smaller;
             cursor: pointer;
         }
-        
+        .slider:hover{
+            color:black;
+        }
         .slider:after{
             content : ' \2192';
             color: yellow;
@@ -58,7 +60,7 @@
             color: black;
         }
         .header-wrapper{
-            width: 1170px;
+            max-width: 1170px;
             overflow: hidden;
             margin:0 auto;
             background-color: #001c37;
@@ -89,7 +91,7 @@
         .header-text a:hover{
             color: black;
         }
-        img{
+        .header-text img{
             margin-top: 10px;
             cursor: pointer;
         }
@@ -145,9 +147,9 @@
             color: black;
         }
 
-        .s1-image{
+        .s1-image img{
             
-            background: url("../images/photo1.jpg") no-repeat;
+            /* background: url("../images/photo1.jpg") no-repeat; */
             float: right;
             width:570px;
             height: 524px;
@@ -166,15 +168,13 @@
             width:1170px;
             margin:0 auto;
         }
-        .s2-image{
+        .s2-image img{
             
-            background: url("../images/photo2.jpg") no-repeat;
+            /* background: url("../images/photo2.jpg") no-repeat; */
             background-size: auto;
             float: left;
             width:600px;
-            /* padding:100px 0;  */
             margin-top: 100px;
-            /* margin-bottom: 50px; */
             height: 484px;
         }
 
@@ -192,16 +192,15 @@
         .s3-fullength{
             background: #003366;
             overflow: hidden;
-            /* height: 50px; */
+          
         }
         .s3-wrapper{
-            background: yellow;
-            width:1170px;
+            max-width:1170px;
             margin:0 auto;
         }
         .s3-text{
             float: left;
-            /* background: red; */
+            
             padding: 30px 0; 
             font-family: 'Montserrat', sans-serif;
             font-style: normal;
@@ -239,13 +238,13 @@
 
 
         .s4-fullength{
-            /* background: black; */
+            
             background:#ffffff;
-            /* height: 500px;   668 */
+        
         } 
         .s4-wrapper{
-            background: yellow; 
-            width:1170px;
+           
+            max-width:1170px;
             margin:0 auto;
         }
         .s4-text{
@@ -265,7 +264,7 @@
             padding:20px 350px 25px 350px;
         }
         .s4-image{
-            /* background-color: blue; */
+           
             background-color: #ffffff;
             overflow: hidden;
         }
@@ -285,14 +284,13 @@
             color: #003366;
         }
         .image1-text .heading3{
-            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: smaller; */
+            
             padding:20px 0 60px 0;
         }
 
         .image2{
             float:left;
-            /* background: brown; */
+           
             margin: 0px 30px;
             width:370px;
         }
@@ -303,7 +301,7 @@
 
         .image3{
             float:left;
-            /* background: orange; */
+           
             width:370px;
         }
         .image3-bgcolor{
@@ -315,8 +313,8 @@
             background: #003366;
         }
         .s5-wrapper{
-            /* background: red; */
-            width:1170px;
+           
+            max-width:1170px;
             margin: 0 auto;
             overflow: hidden;
             padding:80px 0;
@@ -353,16 +351,16 @@
             width:1170px;
             margin:0 auto;
         }
-        .s6-image{
+        .s6-image img{
             
-            /* background-color: red; */
-            background: url("../images/photo3.jpg") no-repeat;
+           
+            /* background: url("../images/photo3.jpg") no-repeat; */
             float: left;
             width:570px;
             height: 524px;
         }
         .s6-text{
-            background:green;
+            
             background: #ffffff;
             float:right;
             width:523px;
@@ -377,7 +375,7 @@
         }
         .s7-wrapper{
             /* background: yellow; */
-            width:1130px;
+            max-width:1130px;
             margin:0 auto;
             text-align: center;
             padding:60px 20px;
@@ -455,7 +453,7 @@
         }
         .footer-wrapper{
             /* background: red; */
-            width:1170px;
+            max-width:1170px;
             margin: 0 auto;
             overflow: hidden;
         }
