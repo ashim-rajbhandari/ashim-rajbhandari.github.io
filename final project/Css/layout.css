@@ -149,7 +149,7 @@
 
         .s1-image img{
             
-            /* background: url("../images/photo1.jpg") no-repeat; */
+           
             float: right;
             width:570px;
             height: 524px;
@@ -170,7 +170,7 @@
         }
         .s2-image img{
             
-            /* background: url("../images/photo2.jpg") no-repeat; */
+            
             background-size: auto;
             float: left;
             width:600px;
@@ -212,7 +212,7 @@
         }
         .s3-btn{
             float: right;
-            /* background: pink; */
+            
             margin: 25px 0;
         }
         .s3-btn button{
@@ -352,9 +352,6 @@
             margin:0 auto;
         }
         .s6-image img{
-            
-           
-            /* background: url("../images/photo3.jpg") no-repeat; */
             float: left;
             width:570px;
             height: 524px;
@@ -374,7 +371,7 @@
             background: #003333;
         }
         .s7-wrapper{
-            /* background: yellow; */
+            
             max-width:1130px;
             margin:0 auto;
             text-align: center;
@@ -452,14 +449,14 @@
             background: #003366;
         }
         .footer-wrapper{
-            /* background: red; */
+           
             max-width:1170px;
             margin: 0 auto;
             overflow: hidden;
         }
         .footer-text{
             float: left;
-            /* background: brown; */
+           
         }
         .footer-text1{
             font-family: 'Montserrat', sans-serif;
@@ -469,7 +466,7 @@
         }
         .footer-icon{
             float: right;
-            /* background:green; */
+           
             padding:19px 0;
         }
         .yellow{
@@ -496,7 +493,9 @@
             cursor: pointer;
         }
 
+        .hidden{
+            display : none;
+        }
 
 
-
-
+      
