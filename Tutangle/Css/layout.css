@@ -1,0 +1,213 @@
+.wrapper{
+    
+    background : red;
+    /* padding-top: 10px;
+    padding-bottom : 10px; */
+    
+}
+
+.header-wrapper{
+    background : green;
+    /* width: 1002px;
+    margin: 0 auto; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+.header-fullength{
+    background: skyblue;
+
+}
+
+.navbar{
+    width: 982px;
+    margin: 0 auto;
+    /* background : blue; */
+    background : skyblue;
+    overflow: hidden;
+    padding: 10px; 
+     
+}
+.navbar-fullength{
+    background-color:gray;
+}
+.nav{
+    /* background : yellow; */
+    background : grey;
+    width: 982px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* margin-top: 5px; */
+    padding: 10px;
+}
+
+.img{
+    background : blueviolet;
+    float:left;
+    width:180px;
+    padding:20px 0; 
+}
+
+.form{
+    background :brown;
+    float: left;
+    margin-left:20px;
+    margin-top:20px;
+    width:280px; 
+    padding:10px 0;
+}
+
+.profile{
+    background :palevioletred;
+    float: right;
+    padding:10px;
+    width: 115px; 
+}
+.name{
+    background: crimson;
+}
+.name1{
+    background: darkblue;
+    margin-top:5px;
+}
+.content{
+    background: darkgreen;
+    float: left;
+    width:399px;
+}
+.friend{
+    float:right;
+    background: darkred;
+    width: 251px;
+}
+
+/* end of header */
+
+.body-wrapper{
+    /* background: deeppink; */
+    background: white;
+    width: 982px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    overflow: hidden;
+}
+.body-fullength{
+    background: white;
+    
+    /* margin-top:5px; */
+}
+.search-wrapper{
+    background: dimgrey;
+    float: left;
+    padding: 10px;
+    width:175px;
+}
+.search{
+    background: tomato;
+    padding:10px;
+}
+.recent-search{
+    background: turquoise;
+}
+.list{
+     background: violet;
+     margin-top:2px;
+     
+}
+
+.section-wrapper{
+    background: wheat;
+    float: right;
+    overflow: hidden;
+    padding:10px;
+    width: 698px;
+    
+
+}
+.entries-wrapper{
+    background: gold;
+    float:left;
+    width:400px; 
+    padding:10px;
+}
+.entry-text{
+    background: purple;
+}
+.entry-content{
+    background: brown;
+    margin-top:5px;
+    padding:10px;
+}
+.entry1{
+      background: peru;
+      padding:10px;
+      overflow:hidden;
+}
+.allentry{
+    background: rebeccapurple;
+    float:left;
+}
+.subscribed{
+    background: rosybrown;
+    float:right;
+}
+.entry-list{
+    background: peru;
+    padding:10px;
+    margin-top:5px;
+}
+.img-des{
+    background-color: royalblue;
+    padding:10px;
+    overflow: hidden;
+
+}
+.image{
+    background:green;
+    float: left;
+}
+.description{
+    background:red;
+    float: right;
+}
+.tutorial-wrapper{
+    background: greenyellow;
+    float:right;
+    width: 158px;
+    padding:10px;
+}
+.tutorial-content{
+    background: honeydew;
+    padding:10px;
+}
+.tutorial-text{
+    background: hotpink;
+}
+.tutorial-list{
+    background: indianred;
+    margin-top: 5px;
+}
+
+/* footer css */
+.footer-fullength{
+    background:lawngreen;
+    /* margin-top:5px; */
+}
+.footer-wrapper{
+    background: lawngreen;
+    padding:10px;
+    width:982px;
+    margin: 0 auto;
+    
+    overflow: hidden;
+}
+.footer-list{
+    background: pink;
+    float: left;
+    width: 268px;
+}
+.copyright{
+    background-color: plum;
+    float: right;
+    width:64px;
+}

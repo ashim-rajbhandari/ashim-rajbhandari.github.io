@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+    /* .header-fullength{
+        width: 100%;
+    }  */
+    .navbar {
+      width:100%;
+      margin:0 30% ;
+    }
+    
+    .form{
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+    }
+    .profile{
+        clear: both;
+        float: left;
+        margin: 0 auto;
+    }
+    .nav{
+        width: 100%;
+    }
+    .content{
+        text-align: center;
+        
+    }
+    .friend{
+        clear: both;
+        text-align: left;
+    }
+    .body-fullength{
+        clear: both;
+    }
+    .body-wrapper{
+        clear: both;
+    }
+    .search-wrapper{
+        width: 100%;
+        clear: both;
+    }
+    .list .list-text{
+        width:100%;
+    }
+    .section-wrapper{
+        clear: both;
+    }
+    .entries-wrapper{
+        clear: both;
+        width: 100%;
+    }
+  }
