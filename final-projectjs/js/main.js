@@ -2,6 +2,9 @@ let canvas = document.getElementById('myCanvas');
 let ctx = canvas.getContext("2d");
 var animationID;
 
+let sound = document.getElementById('laser');
+let blast = document.getElementById('blast');
+
 //  load sprites
 let sprite =  "image/sprite.png";
 const tank = new Image();
@@ -56,6 +59,7 @@ var armyArray = [];
 var bullet_height = 10;
 var bullet_width = 3;
 var tankBullet_x;
+var tankBullet_x1;
 var tankBullet_y;
 var shouldMoveTankBullet = false;
 var tankBullet_dy = 10;
@@ -121,6 +125,11 @@ function gameLoop(){
   if(shouldMoveTankBullet) {
     drawBullet(tankBullet_x,tankBullet_y);
     moveTankBullet();
+    if(level == 2){
+      drawBullet(tankBullet_x,tankBullet_y);
+      drawBullet1(tankBullet_x1, tankBullet_y);
+      moveTankBullet();
+    }
   }
   invadersBulletHandler();
   animationID =  requestAnimationFrame(gameLoop);
@@ -144,7 +153,11 @@ function keyPressed() {
     }  
   }
   if (keys[88] || keys[32]) {    
-    if(!shouldMoveTankBullet)fireTankBullet();
+    if(!shouldMoveTankBullet){
+      fireTankBullet();
+      sound.play();
+      
+    }
   }
 }
 function keypressedHandler(){
@@ -204,21 +217,14 @@ function drawBottomHelper(){
 }
 
 function drawGameOver(message){
-  drawBlinker(function(){ drawScreen_line1("Game Over ") },function(){ drawScreen_line2(message) });
-}
-
-function drawBlinker(func1, func2){
-  let counter=0;
-    startScreenTimeout = setInterval(() => {
-    ctx.clearRect(0,0,canvas.width,canvas.height-50);
-    func1();
-    if(counter%3==0)func2();
-    counter++;
-    }, 400);
+  drawScreen_line1("Game Over ");
+  drawScreen_line2(message);
 }
   
 function drawStartScreen(){
-  drawBlinker(function(){ drawScreen_line1("Space Wars") },function(){ drawScreen_line2("press enter to play") });
+  drawScreen_line1("Space Wars") ;
+  drawScreen_line2("press enter to play") ;
+  drawScreen_line3('Note: For animated moving aliens hit 2 bullets');
 }
 
 function drawScreen_line1(message){
@@ -241,4 +247,15 @@ function drawScreen_line2(message){
     ctx.fillText(message, canvas.width/2,canvas.height/2+60);  
     ctx.closePath();
     ctx.restore();
+}
+
+function drawScreen_line3(message){
+  ctx.save();
+  ctx.beginPath();
+  ctx.font = "20px Play";
+  ctx.fillStyle="white";
+  ctx.textAlign = "center";
+  ctx.fillText(message, canvas.width/2, canvas.height-150);  
+  ctx.closePath();
+  ctx.restore();
 }

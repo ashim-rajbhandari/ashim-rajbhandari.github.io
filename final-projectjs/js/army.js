@@ -1,6 +1,10 @@
 function moveArmy(){
   if(frameCount-armyPrevFrameCount>armySpeed){
     armyPrevFrameCount=frameCount;
+    if(level == 2){
+      invaderSpriteHeight=spritUnitHeight-invaderSpriteHeight;
+      spriteSelector= 1 - spriteSelector;
+    }
   }
   else{
     return false;
@@ -35,12 +39,12 @@ function constructArmy(aX,aY){
   for (let i = 0; i < armyRows; i++) {
     armyArray[i]=[];
     for(let j = 0; j < armyColumns; j++){ 
-     console.log(armyArray[i][j]={
+      armyArray[i][j]={
         x: aX + j*(invaderWidth + invaderLeftOffset),
         y:aY + i*(invaderHeight + invaderTopOffset),
         status:"alive",
         life: level == 2 ? 4 : 1
-      });
+      };
     }
   }
 }
@@ -66,7 +70,7 @@ function drawArmyOfInvaders(){
           drawInvader(soldier.x,soldier.y,invaderSpriteHeightsArray[i][spriteSelector]);
             
           //chekc if game over by collision
-            if(soldier.y > tankY){
+            if(soldier.y > (tankY-20)){
               gameRunning=false;
             }
         }
@@ -131,6 +135,7 @@ function moveInvaderBullets(){
       console.log("lost 1 life");            
       lives--;
       hasLifeDecreased=true;
+      blast.play();
     }
     drawInvaderBullet(iB.x,iB.y);  
   }
